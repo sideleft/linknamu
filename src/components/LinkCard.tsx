@@ -25,7 +25,7 @@ export default function LinkCard({ link, count, onClick }: Props) {
       </div>
       {count !== undefined && (
         <span className="shrink-0 text-xs tabular-nums text-stone-400 dark:text-stone-500">
-          {count.toLocaleString()} 클릭
+          {count.toLocaleString()}회
         </span>
       )}
     </a>
