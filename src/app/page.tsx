@@ -5,11 +5,11 @@ import { links, profile } from "@/data/profile";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex min-h-screen w-full max-w-md flex-col px-4 py-6 sm:py-10">
+    <main className="mx-auto flex min-h-screen w-full max-w-md flex-col px-6 py-8 sm:py-14">
       <div className="flex justify-end">
         <ThemeToggle />
       </div>
-      <div className="mt-4 flex flex-col gap-10">
+      <div className="mt-4 flex flex-col gap-12">
         <ProfileHeader profile={profile} />
         <LinkList links={links} />
       </div>
